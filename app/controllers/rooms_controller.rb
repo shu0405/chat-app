@@ -23,4 +23,3 @@ class RoomsController < ApplicationController
     params.require(:room).permit(:name, user_ids: [])
   endra
 end
-end
